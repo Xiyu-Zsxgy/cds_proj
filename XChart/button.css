@@ -1,0 +1,16 @@
+
+.button {
+	word-wrap: break-word;
+}
+
+div.ds-button.button-margin, .ds-button.button.button-margin {
+	margin: 10px;
+}
+
+.acn-thing .item ds-button a {
+	color: #444;
+}
+
+a.button[disabled], button.button[disabled] {
+	opacity: 1 !important;
+}

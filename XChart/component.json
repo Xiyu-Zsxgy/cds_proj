@@ -1,0 +1,229 @@
+{
+	"type": "PopupButton",
+	"label": "Popup Button",
+	"main": "Canvas",
+	"order": 99,
+	"exports": {
+		"canvas": "Button",
+		"componentList": "listHTML",
+		"preview": "Preview",
+		"generate": "Preview"
+	},
+	"properties": [
+		{
+			"id": "label",
+			"label": "Label",
+			"type": "text",
+			"defaultValue": "Popup Button"
+		},
+		{
+			"id": "theme",
+			"label": "Theme",
+			"type": "list",
+			"values": [
+				{
+					"key": "button-light",
+					"value": "Light"
+				},
+				{
+					"key": "button-stable",
+					"value": "Stable"
+				},
+				{
+					"key": "button-calm",
+					"value": "Calm"
+				},
+				{
+					"key": "button-positive",
+					"value": "Positive"
+				},
+				{
+					"key": "button-energized",
+					"value": "Energized"
+				},
+				{
+					"key": "button-assertive",
+					"value": "Assertive"
+				},
+				{
+					"key": "button-royal",
+					"value": "Royal"
+				},
+				{
+					"key": "button-dark",
+					"value": "Dark"
+				}
+			],
+			"defaultValue": "button-stable"
+		},
+		{
+			"id": "pageLink",
+			"label": "Link to page",
+			"type": "pageLink",
+			"defaultValue": ""
+		},
+		{
+			"id": "rootDirect",
+			"label": "Navigate Without Back Button",
+			"type": "boolean",
+			"defaultValue": false
+		},
+		{
+			"id": "type",
+			"label": "Popup Type",
+			"type": "list",
+			"values": [
+				{
+					"key": "confirm",
+					"value": "Confirm"
+				},
+				{
+					"key": "alert",
+					"value": "Alert"
+				}
+			],
+			"defaultValue": "confirm"
+		},
+		{
+			"id": "popTemplate",
+			"label": "Popup Template",
+			"type": "text",
+			"defaultValue": "Please confirm this action."
+		},
+		{
+			"id": "cancelText",
+			"label": "Cancel Text",
+			"type": "text",
+			"defaultValue": "Cancel"
+		},
+		{
+			"id": "cancelType",
+			"label": "Cancel Type",
+			"type": "list",
+			"values": [
+				{
+					"key": "button-light",
+					"value": "Light"
+				},
+				{
+					"key": "button-stable",
+					"value": "Stable"
+				},
+				{
+					"key": "button-calm",
+					"value": "Calm"
+				},
+				{
+					"key": "button-positive",
+					"value": "Positive"
+				},
+				{
+					"key": "button-energized",
+					"value": "Energized"
+				},
+				{
+					"key": "button-assertive",
+					"value": "Assertive"
+				},
+				{
+					"key": "button-royal",
+					"value": "Royal"
+				},
+				{
+					"key": "button-dark",
+					"value": "Dark"
+				}
+			],
+			"defaultValue": "button-stable"
+		},
+		{
+			"id": "okText",
+			"label": "OK Text",
+			"type": "text",
+			"defaultValue": "OK"
+		},
+		{
+			"id": "okType",
+			"label": "OK Type",
+			"type": "list",
+			"values": [
+				{
+					"key": "button-light",
+					"value": "Light"
+				},
+				{
+					"key": "button-stable",
+					"value": "Stable"
+				},
+				{
+					"key": "button-calm",
+					"value": "Calm"
+				},
+				{
+					"key": "button-positive",
+					"value": "Positive"
+				},
+				{
+					"key": "button-energized",
+					"value": "Energized"
+				},
+				{
+					"key": "button-assertive",
+					"value": "Assertive"
+				},
+				{
+					"key": "button-royal",
+					"value": "Royal"
+				},
+				{
+					"key": "button-dark",
+					"value": "Dark"
+				}
+			],
+			"defaultValue": "button-positive"
+		},
+		{
+			"id": "inlineBlock",
+			"label": "I'm inline"
+		},
+		{
+			"id": "pullTo",
+			"remove": true
+		},
+		{
+			"id": "height",
+			"remove": true
+		},
+		{
+			"id": "width",
+			"remove": true
+		},
+		{
+			"id": "verticalAlign",
+			"remove": true
+		},
+		{
+			"id": "contentAlign",
+			"remove": true
+		},
+		{
+			"id": "margin",
+			"remove": true
+		},
+		{
+			"id": "padding",
+			"remove": true
+		},
+		{
+			"id": "css",
+			"remove": true
+		}
+	],
+	"javascript": [
+		"directives/popupButtonDirective.js",
+		"services/**/*.js"
+	],
+	"module": [
+		"popupApp"
+	]
+}
