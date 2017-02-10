@@ -21,19 +21,27 @@ export class XChart extends SComponent {
 	// }
 
 	ngOnInit() {
-		let dataset = [ 250 , 210 , 170 , 130 , 90 ];
+		var dataset:Array<Number> = [1.2, 2.3, 0.9, 1.5, 3.3];
+		var min = d3.min(dataset);
+		var max = d3.max(dataset);
+		var linear = d3.scaleLinear()
+			.domain([min, max])
+			.range([10, 300])
+
 		var rectHeight = 25;   //每个矩形所占的像素高度(包括空白)
-		let svg = d3.select("#myChart");
+
+
+		var svg = d3.select("#myChart");
 		svg.selectAll("rect")
 			.data(dataset)
 			.enter()
 			.append("rect")
 			.attr("x",20)
-			.attr("y",function(d,i){
-				return i * rectHeight;
+			.attr("y",function(d:any,i:Number){
+				return (i+1) * rectHeight;
 			})
-			.attr("width",function(d){
-				return d;
+			.attr("width",function(d:any){
+				return linear(d);
 			})
 			.attr("height",rectHeight-2)
 			.attr("fill","steelblue");
