@@ -1,12 +1,11 @@
+D3:
 https://keathmilligan.net/create-reusable-chart-components-with-angular-2-and-d3-js-version-4/
-
 https://github.com/tomwanzek/d3-v4-definitelytyped
 
 https://github.com/tomwanzek/d3-ng2-service
 https://github.com/tomwanzek/d3-ng2-demo
 
 https://keathmilligan.net/create-reusable-chart-components-with-angular-2-and-d3-js-version-4/
-
 
 http://mean.expert/2016/05/02/angular-2-chart-component/
 
@@ -19,8 +18,18 @@ http://stackoverflow.com/questions/38335087/correct-way-to-import-d3-js-into-an-
 https://github.com/tianxuzhang/d3.v4-API-Translation
 https://github.com/tianxuzhang/d3.v4-API-Translation#selections
 
-
 http://jsongen.pykaso.net/
 https://github.com/xswei/D3-V4-API-CN
-
 https://segmentfault.com/a/1190000006843916
+
+webpack materials:
+https://doc.webpack-china.org/
+https://github.com/webpack-china/awesome-webpack-cn
+https://github.com/petehunt/webpack-howto#8-optimizing-common-code
+
+https://github.com/lcxfs1991/blog/issues/2
+
+http://www.tuicool.com/articles/bqu263u
+https://medium.com/@rajaraodv/webpack-the-confusing-parts-58712f8fcad9
+
+https://medium.com/@puppybits/webpack-code-splitting-by-routes-92f96cf733f2
